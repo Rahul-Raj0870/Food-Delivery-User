@@ -1,0 +1,87 @@
+
+ 
+ .bgimg{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 30px;
+    
+ }
+ .header-cont{
+    position: absolute;
+    bottom: 100px;
+    padding-inline: 50px;
+    text-shadow: 1px 0px black;
+    animation: fadeIn 3s;
+ }
+ .header-cont>h2{
+    font-weight: 500;
+    font-size: max(4.5vw,22px);
+    text-shadow: 1px 5px 3px black;
+ }
+ .header-cont>button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: solid  rgb(255, 55, 0) 2px;
+    transition: 0.5;
+    color:  rgb(255, 55, 0);
+ }
+ .header-cont>button:hover{
+   background-color: rgb(255, 55, 0);
+   border: none;
+   color: white;
+ }
+ @media (max-width:1050px) {
+  
+   .header-cont{
+      max-width: 65%;
+      bottom: 0px;
+   }
+   .bgimg{
+      /* width: 50%; */
+      height: 40vh;
+      object-fit: cover;
+
+   }
+   .header-cont p{
+      font-size: 12px;
+   }
+ }
+ @media (max-width:750px) {
+   
+   .header-cont{
+      max-width: 75%;
+      bottom: 40px;
+   }
+   .header-cont p{
+      display: none;
+   }
+   
+ }
+ @media (min-width:451px) and (max-width:749px){
+   .header-cont{
+      
+      max-width: 75%;
+      bottom: 50px;
+      padding-inline: 50px;
+   }
+   
+  
+ }
+
+ @media (max-width:450px){
+   .header-cont{
+      
+      max-width: 100%;
+      bottom: 0px;
+      padding-inline: 10px;
+   }
+   .bgimg{
+      height: 20vh;
+   }
+   .header-cont button{
+      padding: 10px;
+      font-size: smaller;
+   }
+ }

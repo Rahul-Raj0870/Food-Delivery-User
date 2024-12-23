@@ -1,0 +1,14 @@
+.food-itm{
+ border-radius: 4px 4px 0px 0px;
+   background-color: white;
+}
+.food-item-img{
+   width: 100%;
+}
+@media (max-width:1050px){
+    
+     .food-item-img{
+        width: 100%;
+        
+     }
+}

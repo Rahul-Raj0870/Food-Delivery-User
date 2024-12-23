@@ -1,0 +1,14 @@
+.verify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spinner{
+    margin: 100px 0px;
+}
+.spinner .spin{
+    height: 200px;
+    width: 200px;
+    font-size: larger;
+    
+}
